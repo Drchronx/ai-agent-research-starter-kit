@@ -1,0 +1,60 @@
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+config.json
+credentials.*
+secrets.*
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+
+# Python / notebook cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node / build cache
+node_modules/
+dist/
+build/
+.cache/
+
+# Archives, installers, and large local binaries
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.exe
+*.msi
+*.dmg
+*.iso
+*.ttf
+*.otf
+
+# Large research data formats
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.fif
+*.edf
+*.bdf
+*.set
+*.vhdr
+*.eeg
+
+# Office temporary files
+~$*
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
