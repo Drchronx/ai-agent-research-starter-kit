@@ -88,9 +88,10 @@ Release notes：
 README 中写：
 
 ```text
-All original project content is licensed under the PolyForm Noncommercial License 1.0.0. Third-party components retain their original licenses.
+Copyright 2026 Drchronx. All original project content is licensed under the PolyForm Noncommercial License 1.0.0. Third-party components retain their original licenses.
 ```
 
 仓库根目录已经包含：
 
 - `LICENSE`：PolyForm Noncommercial License 1.0.0，用于本仓库原创代码、脚本、文档、课件、手册、提示词和 Skills 文档。
+- `NOTICE.md`：声明版权持有人为 Drchronx。

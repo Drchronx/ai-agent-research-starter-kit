@@ -1,4 +1,4 @@
-# CNKI-Hotspot 技能
+﻿# CNKI-Hotspot 技能
 
 ## 概述
 
@@ -275,4 +275,5 @@ url = f"https://api.duckduckgo.com/?q={quote(query)}&format=json"
 
 ## 许可证
 
-MIT License
+PolyForm Noncommercial License 1.0.0
+

@@ -84,6 +84,8 @@ ai-for-research-skills
 
 本项目统一采用 `PolyForm Noncommercial License 1.0.0`，见 `LICENSE`。
 
+版权持有人：`Drchronx`。项目声明见 `NOTICE.md`。
+
 适用范围包括本仓库中的代码、脚本、教学资料、手册、课件、提示词、Skills 文档和示例材料。
 
 这意味着：本项目允许非商业使用、学习、研究、教学和改编，但不允许直接商业使用。

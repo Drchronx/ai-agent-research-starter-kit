@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """
 ScholarEval Score Calculator
 
@@ -10,8 +10,8 @@ Usage:
     python calculate_scores.py --scores <dimension_scores.json> --weights <weights.json>
     python calculate_scores.py --interactive
 
-Author: ScholarEval Framework
-License: MIT
+Author: Drchronx
+License: PolyForm Noncommercial License 1.0.0
 """
 
 import json
@@ -376,3 +376,4 @@ Weights JSON Format:
 
 if __name__ == '__main__':
     main()
+
