@@ -88,10 +88,10 @@ Release notes：
 README 中写：
 
 ```text
-Code and scripts are licensed under the MIT License. Documentation, course materials, prompt templates, and Skill documents are licensed under CC BY-NC-SA 4.0.
+Code and scripts are licensed under the PolyForm Noncommercial License 1.0.0. Documentation, course materials, prompt templates, and Skill documents are licensed under CC BY-NC-SA 4.0.
 ```
 
 仓库根目录已经包含：
 
-- `LICENSE`：MIT License，用于代码和脚本。
+- `LICENSE`：PolyForm Noncommercial License 1.0.0，用于代码和脚本。
 - `LICENSE-DOCS.md`：CC BY-NC-SA 4.0，用于文档、课件、手册、提示词和 Skills 文档。
