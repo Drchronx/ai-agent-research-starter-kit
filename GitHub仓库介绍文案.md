@@ -58,7 +58,7 @@ open-source-course
 可以放在 README 顶部或仓库宣传语里：
 
 ```text
-一个面向科研训练和论文工作流的 AI Agent 开源教学包：从零基础部署 Agent，到文献检索、知识库、实验设计、数据分析、EEG/BCI、论文写作和期刊排版，帮助学生把 AI Agent 真正接入日常科研任务。
+一个面向科研训练和论文工作流的 AI Agent 非商业许可教学包：从零基础部署 Agent，到文献检索、知识库、实验设计、数据分析、EEG/BCI、论文写作和期刊排版，帮助学生把 AI Agent 真正接入日常科研任务。
 ```
 
 ## 适合在仓库右侧 About 区域勾选
@@ -88,10 +88,9 @@ Release notes：
 README 中写：
 
 ```text
-Code and scripts are licensed under the PolyForm Noncommercial License 1.0.0. Documentation, course materials, prompt templates, and Skill documents are licensed under CC BY-NC-SA 4.0.
+All original project content is licensed under the PolyForm Noncommercial License 1.0.0. Third-party components retain their original licenses.
 ```
 
 仓库根目录已经包含：
 
-- `LICENSE`：PolyForm Noncommercial License 1.0.0，用于代码和脚本。
-- `LICENSE-DOCS.md`：CC BY-NC-SA 4.0，用于文档、课件、手册、提示词和 Skills 文档。
+- `LICENSE`：PolyForm Noncommercial License 1.0.0，用于本仓库原创代码、脚本、文档、课件、手册、提示词和 Skills 文档。
