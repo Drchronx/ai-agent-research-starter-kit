@@ -1,0 +1,17 @@
+id,ai_agent_use,creativity_score,cognitive_load,experience_years,discipline
+1,2,68,72,1,management
+2,4,81,55,3,psychology
+3,1,60,80,1,management
+4,5,88,48,5,computer_science
+5,3,74,63,2,neuroscience
+6,4,79,58,4,management
+7,2,66,70,2,psychology
+8,5,91,45,6,computer_science
+9,1,57,82,1,neuroscience
+10,3,73,62,3,management
+11,4,84,54,4,psychology
+12,2,69,69,2,computer_science
+13,5,90,47,7,management
+14,3,76,61,3,neuroscience
+15,1,59,85,1,psychology
+

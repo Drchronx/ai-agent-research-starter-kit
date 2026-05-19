@@ -1,0 +1,5 @@
+interface:
+  display_name: "Scenario Experiment Benchmarks"
+  short_description: "Extract top-journal scenario experiment patterns"
+  default_prompt: "Use $scenario-experiment-benchmark-mining to build a verified benchmark matrix of top-journal scenario experiments for my topic."
+

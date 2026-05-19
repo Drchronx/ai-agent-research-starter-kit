@@ -1,0 +1,5 @@
+interface:
+  display_name: "Quasi-Experimental Methods"
+  short_description: "Plan DID PSM IV RDD DML analyses"
+  default_prompt: "Use $did-psm-iv-rdd-dml-event-study to plan my quasi-experimental analysis."
+

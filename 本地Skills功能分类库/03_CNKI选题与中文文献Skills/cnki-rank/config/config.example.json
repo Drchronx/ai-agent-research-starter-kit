@@ -1,0 +1,25 @@
+{
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "dbname": "academic_hotspot",
+    "user": "<请自行填写>",
+    "password": "<请自行填写>"
+  },
+  "report": {
+    "output_format": "markdown",
+    "feishu_doc_enabled": true,
+    "search_top_n": 2,
+    "enable_web_search": true,
+    "search_threshold": {
+      "new_ranking": true,
+      "returning": true,
+      "top_n": 2
+    }
+  },
+  "_meta": {
+    "initialized": true,
+    "version": "1.0",
+    "created_at": "2026-04-10T12:23:00+08:00"
+  }
+}

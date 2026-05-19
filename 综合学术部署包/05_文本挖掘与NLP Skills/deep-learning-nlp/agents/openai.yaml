@@ -1,0 +1,4 @@
+interface:
+  display_name: "深度学习 NLP"
+  short_description: "基于 Paddle 的 DNN、CNN、RNN 文本分类流程"
+  default_prompt: "使用深度学习 NLP skill 训练或预测 DNN、CNN、RNN 文本分类模型。"

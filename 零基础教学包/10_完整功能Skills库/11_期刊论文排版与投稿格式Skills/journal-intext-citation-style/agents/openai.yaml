@@ -1,0 +1,5 @@
+interface:
+  display_name: "In-Text Citations"
+  short_description: "Convert and audit in-text citation style"
+  default_prompt: "Use $journal-intext-citation-style to audit my manuscript's in-text citations."
+

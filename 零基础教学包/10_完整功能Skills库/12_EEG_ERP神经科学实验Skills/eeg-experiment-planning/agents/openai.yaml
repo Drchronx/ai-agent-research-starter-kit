@@ -1,0 +1,5 @@
+interface:
+  display_name: "EEG Experiment Planning"
+  short_description: "Plan EEG and ERP experiments"
+  default_prompt: "Use $eeg-experiment-planning to design an EEG/ERP study for my research question."
+

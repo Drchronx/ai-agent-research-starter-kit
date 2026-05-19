@@ -1,0 +1,283 @@
+/**
+ * detect-figures.ts
+ * Automatically detect figures and tables from academic PDF papers.
+ *
+ * Usage:
+ *   npx -y bun detect-figures.ts --pdf paper.pdf --output figures.json
+ *
+ * Options:
+ *   --pdf     Path to source PDF file (required)
+ *   --output  Output JSON file path (optional, prints to stdout if omitted)
+ *
+ * Output JSON format:
+ * {
+ *   "figures": [
+ *     { "type": "figure", "number": "1", "page": 2, "caption": "...", "label": "Figure 1" },
+ *     { "type": "table", "number": "I", "page": 5, "caption": "...", "label": "Table I" }
+ *   ],
+ *   "totalPages": 10
+ * }
+ */
+
+import { existsSync, writeFileSync } from "fs";
+import { resolve } from "path";
+// Use legacy build for Node.js compatibility
+import * as pdfjsLib from "pdfjs-dist/legacy/build/pdf.mjs";
+
+interface FigureInfo {
+  type: "figure" | "table";
+  number: string;
+  page: number;
+  caption: string;
+  label: string;
+}
+
+interface DetectionResult {
+  figures: FigureInfo[];
+  totalPages: number;
+  pdfPath: string;
+}
+
+interface Args {
+  pdf: string;
+  output: string | null;
+}
+
+function parseArgs(): Args {
+  const args = process.argv.slice(2);
+  let pdf = "";
+  let output: string | null = null;
+
+  for (let i = 0; i < args.length; i++) {
+    switch (args[i]) {
+      case "--pdf":
+        pdf = args[++i];
+        break;
+      case "--output":
+        output = args[++i];
+        break;
+    }
+  }
+
+  if (!pdf) {
+    console.error("Usage: bun detect-figures.ts --pdf <pdf-path> [--output <output.json>]");
+    console.error("\nOptions:");
+    console.error("  --pdf     Path to source PDF file (required)");
+    console.error("  --output  Output JSON file path (optional)");
+    process.exit(1);
+  }
+
+  return { pdf, output };
+}
+
+/**
+ * Extract text content from a PDF page
+ */
+async function getPageText(page: any): Promise<string> {
+  const textContent = await page.getTextContent();
+  const items = textContent.items as any[];
+
+  // Sort by y position (top to bottom), then x position (left to right)
+  items.sort((a, b) => {
+    const yDiff = b.transform[5] - a.transform[5]; // y is inverted in PDF
+    if (Math.abs(yDiff) > 5) return yDiff;
+    return a.transform[4] - b.transform[4];
+  });
+
+  // Group items by line (similar y position)
+  const lines: string[][] = [];
+  let currentLine: string[] = [];
+  let lastY = items[0]?.transform[5] ?? 0;
+
+  for (const item of items) {
+    const y = item.transform[5];
+    if (Math.abs(y - lastY) > 8) {
+      if (currentLine.length > 0) {
+        lines.push(currentLine);
+      }
+      currentLine = [];
+      lastY = y;
+    }
+    if (item.str.trim()) {
+      currentLine.push(item.str);
+    }
+  }
+  if (currentLine.length > 0) {
+    lines.push(currentLine);
+  }
+
+  return lines.map(line => line.join(" ")).join("\n");
+}
+
+/**
+ * Parse figure and table references from text
+ */
+function parseFiguresFromText(text: string, pageNum: number): FigureInfo[] {
+  const figures: FigureInfo[] = [];
+
+  // Patterns for figure captions
+  // Match: "Fig. 1.", "Figure 1:", "Fig. 1 ", "FIGURE 1."
+  const figurePatterns = [
+    /(?:^|\n)\s*(?:Fig(?:ure|\.)?)\s*(\d+)[.:\s]+([^\n]+(?:\n(?![A-Z]{2,}|\d+\.|Fig|Table)[^\n]+)*)/gi,
+    /(?:^|\n)\s*FIGURE\s+(\d+)[.:\s]+([^\n]+(?:\n(?![A-Z]{2,}|\d+\.|Fig|Table)[^\n]+)*)/g,
+  ];
+
+  // Patterns for table captions
+  // Match: "Table I", "TABLE 1", "Table 1:"
+  const tablePatterns = [
+    /(?:^|\n)\s*(?:Table|TABLE)\s+([IVX\d]+)[.:\s]+([^\n]+(?:\n(?![A-Z]{2,}|\d+\.|Fig|Table)[^\n]+)*)/gi,
+  ];
+
+  // Extract figures
+  for (const pattern of figurePatterns) {
+    let match;
+    while ((match = pattern.exec(text)) !== null) {
+      const number = match[1];
+      const caption = match[2].trim().replace(/\s+/g, " ").substring(0, 300);
+      const label = `Figure ${number}`;
+
+      // Avoid duplicates
+      if (!figures.some(f => f.label === label)) {
+        figures.push({
+          type: "figure",
+          number,
+          page: pageNum,
+          caption,
+          label,
+        });
+      }
+    }
+  }
+
+  // Extract tables
+  for (const pattern of tablePatterns) {
+    let match;
+    while ((match = pattern.exec(text)) !== null) {
+      const number = match[1];
+      const caption = match[2].trim().replace(/\s+/g, " ").substring(0, 300);
+      const label = `Table ${number}`;
+
+      // Avoid duplicates
+      if (!figures.some(f => f.label === label)) {
+        figures.push({
+          type: "table",
+          number,
+          page: pageNum,
+          caption,
+          label,
+        });
+      }
+    }
+  }
+
+  return figures;
+}
+
+/**
+ * Detect all figures and tables in a PDF
+ */
+async function detectFigures(pdfPath: string): Promise<DetectionResult> {
+  const absolutePath = resolve(pdfPath);
+
+  if (!existsSync(absolutePath)) {
+    throw new Error(`PDF file not found: ${absolutePath}`);
+  }
+
+  console.error(`Loading PDF: ${absolutePath}`);
+
+  const loadingTask = pdfjsLib.getDocument({
+    url: absolutePath,
+    useSystemFonts: true,
+    standardFontDataUrl: "node_modules/pdfjs-dist/standard_fonts/",
+  });
+
+  const pdfDoc = await loadingTask.promise;
+  const totalPages = pdfDoc.numPages;
+
+  console.error(`PDF loaded: ${totalPages} pages`);
+  console.error("Scanning for figures and tables...\n");
+
+  const allFigures: FigureInfo[] = [];
+  const seenLabels = new Set<string>();
+
+  for (let pageNum = 1; pageNum <= totalPages; pageNum++) {
+    const page = await pdfDoc.getPage(pageNum);
+    const text = await getPageText(page);
+    const pageFigures = parseFiguresFromText(text, pageNum);
+
+    for (const fig of pageFigures) {
+      // Only add if not already seen (captions may span pages)
+      if (!seenLabels.has(fig.label)) {
+        seenLabels.add(fig.label);
+        allFigures.push(fig);
+        console.error(`  Found: ${fig.label} on page ${fig.page}`);
+      }
+    }
+  }
+
+  // Sort by type then number
+  allFigures.sort((a, b) => {
+    if (a.type !== b.type) {
+      return a.type === "figure" ? -1 : 1;
+    }
+    // Handle Roman numerals for tables
+    const numA = romanToInt(a.number) || parseInt(a.number, 10) || 0;
+    const numB = romanToInt(b.number) || parseInt(b.number, 10) || 0;
+    return numA - numB;
+  });
+
+  console.error(`\nTotal: ${allFigures.length} figures/tables detected`);
+
+  return {
+    figures: allFigures,
+    totalPages,
+    pdfPath: absolutePath,
+  };
+}
+
+/**
+ * Convert Roman numeral to integer
+ */
+function romanToInt(roman: string): number | null {
+  const romanMap: { [key: string]: number } = {
+    I: 1, V: 5, X: 10, L: 50, C: 100, D: 500, M: 1000,
+  };
+
+  const upper = roman.toUpperCase();
+  if (!/^[IVXLCDM]+$/.test(upper)) {
+    return null;
+  }
+
+  let result = 0;
+  for (let i = 0; i < upper.length; i++) {
+    const current = romanMap[upper[i]];
+    const next = romanMap[upper[i + 1]] || 0;
+    if (current < next) {
+      result -= current;
+    } else {
+      result += current;
+    }
+  }
+  return result;
+}
+
+async function main() {
+  const { pdf, output } = parseArgs();
+
+  try {
+    const result = await detectFigures(pdf);
+    const json = JSON.stringify(result, null, 2);
+
+    if (output) {
+      writeFileSync(output, json);
+      console.error(`\nSaved to: ${output}`);
+    } else {
+      console.log(json);
+    }
+  } catch (error) {
+    console.error("\nError:", error instanceof Error ? error.message : error);
+    process.exit(1);
+  }
+}
+
+main();

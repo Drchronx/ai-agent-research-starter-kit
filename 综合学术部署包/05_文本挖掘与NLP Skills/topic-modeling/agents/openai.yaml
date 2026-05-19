@@ -1,0 +1,4 @@
+interface:
+  display_name: "主题建模"
+  short_description: "LDA、DTM 与 BERTopic 主题建模流程"
+  default_prompt: "使用主题建模 skill 执行 LDA、DTM 或 BERTopic 分析。"

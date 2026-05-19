@@ -1,0 +1,5 @@
+interface:
+  display_name: "Mediation Moderation"
+  short_description: "Analyze mediation and moderation"
+  default_prompt: "Use $process-mediation-moderation to design and report my mediation or moderated mediation analysis."
+

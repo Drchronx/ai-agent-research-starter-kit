@@ -1,0 +1,5 @@
+interface:
+  display_name: "EEG Results Figures"
+  short_description: "Write EEG results and figure plans"
+  default_prompt: "Use $eeg-results-writing-figures to draft EEG Methods, Results, and figure plans."
+

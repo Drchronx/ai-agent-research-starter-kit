@@ -1,0 +1,5 @@
+interface:
+  display_name: "Causal Design Audit"
+  short_description: "Audit causal identification"
+  default_prompt: "Use $causal-inference-design-audit to check whether my design supports causal claims."
+

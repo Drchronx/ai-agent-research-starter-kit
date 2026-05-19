@@ -1,0 +1,464 @@
+﻿[
+    {
+        "Category":  "01_核心文档处理Skills",
+        "Name":  "markitdown",
+        "Source":  "cc课程资料\\skills\\markitdown",
+        "Destination":  "综合学术部署包\\01_核心文档处理Skills\\markitdown",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "01_核心文档处理Skills",
+        "Name":  "pdf",
+        "Source":  "cc课程资料\\skills\\pdf",
+        "Destination":  "综合学术部署包\\01_核心文档处理Skills\\pdf",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "01_核心文档处理Skills",
+        "Name":  "docx",
+        "Source":  "cc课程资料\\skills\\docx",
+        "Destination":  "综合学术部署包\\01_核心文档处理Skills\\docx",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "01_核心文档处理Skills",
+        "Name":  "xlsx",
+        "Source":  "cc课程资料\\skills\\xlsx",
+        "Destination":  "综合学术部署包\\01_核心文档处理Skills\\xlsx",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "01_核心文档处理Skills",
+        "Name":  "pptx",
+        "Source":  "cc课程资料\\skills\\pptx",
+        "Destination":  "综合学术部署包\\01_核心文档处理Skills\\pptx",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "02_文献检索综述引用Skills",
+        "Name":  "academic-research-hub",
+        "Source":  "cc课程资料\\skills\\academic-research-hub",
+        "Destination":  "综合学术部署包\\02_文献检索综述引用Skills\\academic-research-hub",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "02_文献检索综述引用Skills",
+        "Name":  "academic-research-openalex",
+        "Source":  "Python大语言模型与智能体前沿实证特训营\\专题三：AI智能体、Skill开发与科研自动化\\05_Skill能力包\\01_文献综述_Skill\\academic-research",
+        "Destination":  "综合学术部署包\\02_文献检索综述引用Skills\\academic-research-openalex",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "02_文献检索综述引用Skills",
+        "Name":  "literature-review",
+        "Source":  "cc课程资料\\skills\\literature-review",
+        "Destination":  "综合学术部署包\\02_文献检索综述引用Skills\\literature-review",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "02_文献检索综述引用Skills",
+        "Name":  "literature-reviewer-skill",
+        "Source":  "Python大语言模型与智能体前沿实证特训营\\专题三：AI智能体、Skill开发与科研自动化\\05_Skill能力包\\01_文献综述_Skill\\Literature-Reviewer-Skill",
+        "Destination":  "综合学术部署包\\02_文献检索综述引用Skills\\literature-reviewer-skill",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "02_文献检索综述引用Skills",
+        "Name":  "citation-management",
+        "Source":  "cc课程资料\\skills\\citation-management",
+        "Destination":  "综合学术部署包\\02_文献检索综述引用Skills\\citation-management",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "02_文献检索综述引用Skills",
+        "Name":  "research-lookup",
+        "Source":  "cc课程资料\\skills\\research-lookup",
+        "Destination":  "综合学术部署包\\02_文献检索综述引用Skills\\research-lookup",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "02_文献检索综述引用Skills",
+        "Name":  "research-superpower",
+        "Source":  "cc课程资料\\skills\\research-superpower",
+        "Destination":  "综合学术部署包\\02_文献检索综述引用Skills\\research-superpower",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "02_文献检索综述引用Skills",
+        "Name":  "pdf-paper-summary",
+        "Source":  "cc课程资料\\skills\\pdf-paper-summary",
+        "Destination":  "综合学术部署包\\02_文献检索综述引用Skills\\pdf-paper-summary",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "02_文献检索综述引用Skills",
+        "Name":  "paper-innovation-extractor",
+        "Source":  "cc课程资料\\skills\\paper-innovation-extractor",
+        "Destination":  "综合学术部署包\\02_文献检索综述引用Skills\\paper-innovation-extractor",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "02_文献检索综述引用Skills",
+        "Name":  "arxiv-watcher",
+        "Source":  "cc课程资料\\skills\\arxiv-watcher",
+        "Destination":  "综合学术部署包\\02_文献检索综述引用Skills\\arxiv-watcher",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "02_文献检索综述引用Skills",
+        "Name":  "ssci-literature-review",
+        "Source":  "openclawssci特训营\\第二讲课件资料\\ssci-literature-review\\ssci-literature-review",
+        "Destination":  "综合学术部署包\\02_文献检索综述引用Skills\\ssci-literature-review",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "03_CNKI选题与中文文献Skills",
+        "Name":  "cnki-exp-search-automation",
+        "Source":  "cc课程资料\\skills\\cnki-exp-search-automation",
+        "Destination":  "综合学术部署包\\03_CNKI选题与中文文献Skills\\cnki-exp-search-automation",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "03_CNKI选题与中文文献Skills",
+        "Name":  "cnki-crawler-literature",
+        "Source":  "Python大语言模型与智能体前沿实证特训营\\专题三：AI智能体、Skill开发与科研自动化\\05_Skill能力包\\01_文献综述_Skill\\cnki-crawler",
+        "Destination":  "综合学术部署包\\03_CNKI选题与中文文献Skills\\cnki-crawler-literature",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "03_CNKI选题与中文文献Skills",
+        "Name":  "cnki-crawler-topic",
+        "Source":  "Python大语言模型与智能体前沿实证特训营\\专题三：AI智能体、Skill开发与科研自动化\\05_Skill能力包\\02_选题助手_Skill\\cnki-crawler",
+        "Destination":  "综合学术部署包\\03_CNKI选题与中文文献Skills\\cnki-crawler-topic",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "03_CNKI选题与中文文献Skills",
+        "Name":  "cnki-rank",
+        "Source":  "Python大语言模型与智能体前沿实证特训营\\专题三：AI智能体、Skill开发与科研自动化\\05_Skill能力包\\02_选题助手_Skill\\cnki-rank",
+        "Destination":  "综合学术部署包\\03_CNKI选题与中文文献Skills\\cnki-rank",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "03_CNKI选题与中文文献Skills",
+        "Name":  "cnki-trend",
+        "Source":  "Python大语言模型与智能体前沿实证特训营\\专题三：AI智能体、Skill开发与科研自动化\\05_Skill能力包\\02_选题助手_Skill\\cnki-trend",
+        "Destination":  "综合学术部署包\\03_CNKI选题与中文文献Skills\\cnki-trend",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "03_CNKI选题与中文文献Skills",
+        "Name":  "cnki-research-assistant",
+        "Source":  "Python大语言模型与智能体前沿实证特训营\\专题三：AI智能体、Skill开发与科研自动化\\05_Skill能力包\\02_选题助手_Skill\\cnki-research-assistant",
+        "Destination":  "综合学术部署包\\03_CNKI选题与中文文献Skills\\cnki-research-assistant",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "04_数据采集整合与实证Skills",
+        "Name":  "empirical-analysis-skill-python",
+        "Source":  "Python大语言模型与智能体前沿实证特训营\\专题四：机器学习与Skill构建\\empirical-analysis-skill_Python",
+        "Destination":  "综合学术部署包\\04_数据采集整合与实证Skills\\empirical-analysis-skill-python",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "04_数据采集整合与实证Skills",
+        "Name":  "multi-source-data-integration-extraction",
+        "Source":  "Python大语言模型与智能体前沿实证特训营\\专题三：AI智能体、Skill开发与科研自动化\\05_Skill能力包\\03_多来源数据提取_Skill",
+        "Destination":  "综合学术部署包\\04_数据采集整合与实证Skills\\multi-source-data-integration-extraction",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "04_数据采集整合与实证Skills",
+        "Name":  "research-data-auto-analysis-plotting",
+        "Source":  "Python大语言模型与智能体前沿实证特训营\\专题三：AI智能体、Skill开发与科研自动化\\05_Skill能力包\\05_数据可视化_Skill",
+        "Destination":  "综合学术部署包\\04_数据采集整合与实证Skills\\research-data-auto-analysis-plotting",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "04_数据采集整合与实证Skills",
+        "Name":  "data-visualization-analysis",
+        "Source":  "cc课程资料\\skills\\data-visualization-analysis",
+        "Destination":  "综合学术部署包\\04_数据采集整合与实证Skills\\data-visualization-analysis",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "04_数据采集整合与实证Skills",
+        "Name":  "data-viz-analyzer",
+        "Source":  "cc课程资料\\skills\\data-viz-analyzer",
+        "Destination":  "综合学术部署包\\04_数据采集整合与实证Skills\\data-viz-analyzer",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "04_数据采集整合与实证Skills",
+        "Name":  "decision-tree-modeling",
+        "Source":  "cc课程资料\\skills\\decision-tree-modeling\\decision-tree-modeling",
+        "Destination":  "综合学术部署包\\04_数据采集整合与实证Skills\\decision-tree-modeling",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "04_数据采集整合与实证Skills",
+        "Name":  "tushare-finance",
+        "Source":  "cc课程资料\\skills\\tushare-finance",
+        "Destination":  "综合学术部署包\\04_数据采集整合与实证Skills\\tushare-finance",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "05_文本挖掘与NLP Skills",
+        "Name":  "text-analysis-basic",
+        "Source":  "Python大语言模型与智能体前沿实证特训营\\专题五：文本分析NLP与Skill构建\\skills\\text-analysis-basic",
+        "Destination":  "综合学术部署包\\05_文本挖掘与NLP Skills\\text-analysis-basic",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "05_文本挖掘与NLP Skills",
+        "Name":  "topic-modeling",
+        "Source":  "Python大语言模型与智能体前沿实证特训营\\专题五：文本分析NLP与Skill构建\\skills\\topic-modeling",
+        "Destination":  "综合学术部署包\\05_文本挖掘与NLP Skills\\topic-modeling",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "05_文本挖掘与NLP Skills",
+        "Name":  "sentiment-analysis",
+        "Source":  "Python大语言模型与智能体前沿实证特训营\\专题五：文本分析NLP与Skill构建\\skills\\sentiment-analysis",
+        "Destination":  "综合学术部署包\\05_文本挖掘与NLP Skills\\sentiment-analysis",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "05_文本挖掘与NLP Skills",
+        "Name":  "deep-learning-nlp",
+        "Source":  "Python大语言模型与智能体前沿实证特训营\\专题五：文本分析NLP与Skill构建\\skills\\deep-learning-nlp",
+        "Destination":  "综合学术部署包\\05_文本挖掘与NLP Skills\\deep-learning-nlp",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "05_文本挖掘与NLP Skills",
+        "Name":  "big-data-labeling-variable-construction",
+        "Source":  "Python大语言模型与智能体前沿实证特训营\\专题三：AI智能体、Skill开发与科研自动化\\05_Skill能力包\\06_文本分析_Skill",
+        "Destination":  "综合学术部署包\\05_文本挖掘与NLP Skills\\big-data-labeling-variable-construction",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "06_论文写作审稿投稿Skills",
+        "Name":  "scientific-writing",
+        "Source":  "cc课程资料\\skills\\scientific-writing",
+        "Destination":  "综合学术部署包\\06_论文写作审稿投稿Skills\\scientific-writing",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "06_论文写作审稿投稿Skills",
+        "Name":  "empirical-paper-writer",
+        "Source":  "cc课程资料\\skills\\empirical-paper-writer",
+        "Destination":  "综合学术部署包\\06_论文写作审稿投稿Skills\\empirical-paper-writer",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "06_论文写作审稿投稿Skills",
+        "Name":  "paper-writing-assistant-typesetting",
+        "Source":  "Python大语言模型与智能体前沿实证特训营\\专题三：AI智能体、Skill开发与科研自动化\\05_Skill能力包\\04_文献编写_Skill",
+        "Destination":  "综合学术部署包\\06_论文写作审稿投稿Skills\\paper-writing-assistant-typesetting",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "06_论文写作审稿投稿Skills",
+        "Name":  "peer-review",
+        "Source":  "cc课程资料\\skills\\peer-review",
+        "Destination":  "综合学术部署包\\06_论文写作审稿投稿Skills\\peer-review",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "06_论文写作审稿投稿Skills",
+        "Name":  "scholar-evaluation",
+        "Source":  "cc课程资料\\skills\\scholar-evaluation",
+        "Destination":  "综合学术部署包\\06_论文写作审稿投稿Skills\\scholar-evaluation",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "06_论文写作审稿投稿Skills",
+        "Name":  "scientific-critical-thinking",
+        "Source":  "cc课程资料\\skills\\scientific-critical-thinking",
+        "Destination":  "综合学术部署包\\06_论文写作审稿投稿Skills\\scientific-critical-thinking",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "06_论文写作审稿投稿Skills",
+        "Name":  "hypothesis-generation",
+        "Source":  "cc课程资料\\skills\\hypothesis-generation",
+        "Destination":  "综合学术部署包\\06_论文写作审稿投稿Skills\\hypothesis-generation",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "06_论文写作审稿投稿Skills",
+        "Name":  "research-proposal",
+        "Source":  "cc课程资料\\skills\\research-proposal",
+        "Destination":  "综合学术部署包\\06_论文写作审稿投稿Skills\\research-proposal",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "06_论文写作审稿投稿Skills",
+        "Name":  "research-grants",
+        "Source":  "cc课程资料\\skills\\research-grants",
+        "Destination":  "综合学术部署包\\06_论文写作审稿投稿Skills\\research-grants",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "06_论文写作审稿投稿Skills",
+        "Name":  "venue-templates",
+        "Source":  "cc课程资料\\skills\\venue-templates",
+        "Destination":  "综合学术部署包\\06_论文写作审稿投稿Skills\\venue-templates",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "06_论文写作审稿投稿Skills",
+        "Name":  "doc-coauthoring",
+        "Source":  "cc课程资料\\skills\\doc-coauthoring",
+        "Destination":  "综合学术部署包\\06_论文写作审稿投稿Skills\\doc-coauthoring",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "06_论文写作审稿投稿Skills",
+        "Name":  "academic-paper-composer",
+        "Source":  "cc课程资料\\skills\\composer",
+        "Destination":  "综合学术部署包\\06_论文写作审稿投稿Skills\\academic-paper-composer",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "06_论文写作审稿投稿Skills",
+        "Name":  "academic-paper-strategist",
+        "Source":  "cc课程资料\\skills\\strategist",
+        "Destination":  "综合学术部署包\\06_论文写作审稿投稿Skills\\academic-paper-strategist",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "07_自动化MCP浏览器与Agent Skills",
+        "Name":  "skill-creator",
+        "Source":  "cc课程资料\\skills\\skill-creator",
+        "Destination":  "综合学术部署包\\07_自动化MCP浏览器与Agent Skills\\skill-creator",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "07_自动化MCP浏览器与Agent Skills",
+        "Name":  "find-skills",
+        "Source":  "cc课程资料\\skills\\find-skills",
+        "Destination":  "综合学术部署包\\07_自动化MCP浏览器与Agent Skills\\find-skills",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "07_自动化MCP浏览器与Agent Skills",
+        "Name":  "skillhub-preference",
+        "Source":  "cc课程资料\\skills\\skillhub-preference",
+        "Destination":  "综合学术部署包\\07_自动化MCP浏览器与Agent Skills\\skillhub-preference",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "07_自动化MCP浏览器与Agent Skills",
+        "Name":  "mcp-builder",
+        "Source":  "cc课程资料\\skills\\mcp-builder",
+        "Destination":  "综合学术部署包\\07_自动化MCP浏览器与Agent Skills\\mcp-builder",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "07_自动化MCP浏览器与Agent Skills",
+        "Name":  "agent-browser",
+        "Source":  "cc课程资料\\skills\\agent-browser",
+        "Destination":  "综合学术部署包\\07_自动化MCP浏览器与Agent Skills\\agent-browser",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "07_自动化MCP浏览器与Agent Skills",
+        "Name":  "web-browsing",
+        "Source":  "cc课程资料\\skills\\web-browsing",
+        "Destination":  "综合学术部署包\\07_自动化MCP浏览器与Agent Skills\\web-browsing",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "07_自动化MCP浏览器与Agent Skills",
+        "Name":  "webapp-testing",
+        "Source":  "cc课程资料\\skills\\webapp-testing",
+        "Destination":  "综合学术部署包\\07_自动化MCP浏览器与Agent Skills\\webapp-testing",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "07_自动化MCP浏览器与Agent Skills",
+        "Name":  "self-improving-agent",
+        "Source":  "cc课程资料\\skills\\self-improving-agent",
+        "Destination":  "综合学术部署包\\07_自动化MCP浏览器与Agent Skills\\self-improving-agent",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "07_自动化MCP浏览器与Agent Skills",
+        "Name":  "parallel-web",
+        "Source":  "cc课程资料\\skills\\parallel-web",
+        "Destination":  "综合学术部署包\\07_自动化MCP浏览器与Agent Skills\\parallel-web",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "07_自动化MCP浏览器与Agent Skills",
+        "Name":  "tavily-search",
+        "Source":  "cc课程资料\\skills\\tavily-search",
+        "Destination":  "综合学术部署包\\07_自动化MCP浏览器与Agent Skills\\tavily-search",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "07_自动化MCP浏览器与Agent Skills",
+        "Name":  "claude-api",
+        "Source":  "cc课程资料\\skills\\claude-api",
+        "Destination":  "综合学术部署包\\07_自动化MCP浏览器与Agent Skills\\claude-api",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "08_图表PPT海报与可视化Skills",
+        "Name":  "scientific-schematics",
+        "Source":  "cc课程资料\\skills\\scientific-schematics",
+        "Destination":  "综合学术部署包\\08_图表PPT海报与可视化Skills\\scientific-schematics",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "08_图表PPT海报与可视化Skills",
+        "Name":  "scientific-slides",
+        "Source":  "cc课程资料\\skills\\scientific-slides",
+        "Destination":  "综合学术部署包\\08_图表PPT海报与可视化Skills\\scientific-slides",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "08_图表PPT海报与可视化Skills",
+        "Name":  "paper-slide-deck",
+        "Source":  "cc课程资料\\skills\\paper-slide-deck",
+        "Destination":  "综合学术部署包\\08_图表PPT海报与可视化Skills\\paper-slide-deck",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "08_图表PPT海报与可视化Skills",
+        "Name":  "latex-posters",
+        "Source":  "cc课程资料\\skills\\latex-posters",
+        "Destination":  "综合学术部署包\\08_图表PPT海报与可视化Skills\\latex-posters",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "08_图表PPT海报与可视化Skills",
+        "Name":  "pptx-posters",
+        "Source":  "cc课程资料\\skills\\pptx-posters",
+        "Destination":  "综合学术部署包\\08_图表PPT海报与可视化Skills\\pptx-posters",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "08_图表PPT海报与可视化Skills",
+        "Name":  "paper-2-web",
+        "Source":  "cc课程资料\\skills\\paper-2-web",
+        "Destination":  "综合学术部署包\\08_图表PPT海报与可视化Skills\\paper-2-web",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "08_图表PPT海报与可视化Skills",
+        "Name":  "generate-image",
+        "Source":  "cc课程资料\\skills\\generate-image",
+        "Destination":  "综合学术部署包\\08_图表PPT海报与可视化Skills\\generate-image",
+        "HasSkillMd":  "True"
+    },
+    {
+        "Category":  "08_图表PPT海报与可视化Skills",
+        "Name":  "infographics",
+        "Source":  "cc课程资料\\skills\\infographics",
+        "Destination":  "综合学术部署包\\08_图表PPT海报与可视化Skills\\infographics",
+        "HasSkillMd":  "True"
+    }
+]

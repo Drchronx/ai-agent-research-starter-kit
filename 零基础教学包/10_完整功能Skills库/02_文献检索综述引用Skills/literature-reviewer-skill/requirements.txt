@@ -1,0 +1,17 @@
+# 文献综述技能 - Python 依赖
+# 安装：pip install -r requirements.txt
+
+# 数据库驱动
+psycopg2-binary>=2.9.0
+
+# HTTP 请求
+requests>=2.28.0
+
+# XML/HTML 解析
+lxml>=4.9.0
+
+# 日志库
+loguru>=0.7.0
+
+# 进度条
+tqdm>=4.65.0

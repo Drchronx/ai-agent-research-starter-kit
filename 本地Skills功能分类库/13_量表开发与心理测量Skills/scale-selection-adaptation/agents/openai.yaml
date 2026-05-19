@@ -1,0 +1,5 @@
+interface:
+  display_name: "Scale Selection"
+  short_description: "Select and adapt validated scales"
+  default_prompt: "Use $scale-selection-adaptation to choose and adapt validated scales for my constructs."
+

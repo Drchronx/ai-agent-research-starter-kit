@@ -1,0 +1,4 @@
+interface:
+  display_name: "大数据分类标注与实证变量构建"
+  short_description: "自动标注文本大数据并完成情感主题分析与实证变量构建输出"
+  default_prompt: "对文本大数据做分类标注、情感分析、主题提取，并生成实证变量表"

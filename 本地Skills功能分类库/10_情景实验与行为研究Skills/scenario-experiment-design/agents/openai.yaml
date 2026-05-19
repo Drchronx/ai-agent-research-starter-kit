@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scenario Experiment Design"
+  short_description: "Design top-journal scenario experiments"
+  default_prompt: "Design a rigorous scenario experiment for this research question."

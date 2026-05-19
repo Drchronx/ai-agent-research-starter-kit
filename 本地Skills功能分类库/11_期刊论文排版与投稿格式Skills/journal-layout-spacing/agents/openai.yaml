@@ -1,0 +1,5 @@
+interface:
+  display_name: "Layout Spacing"
+  short_description: "Audit manuscript layout constraints"
+  default_prompt: "Use $journal-layout-spacing to prepare document layout settings for the target journal."
+

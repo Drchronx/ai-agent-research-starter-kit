@@ -1,0 +1,5 @@
+interface:
+  display_name: "Footnotes Endnotes"
+  short_description: "Convert manuscript notes safely"
+  default_prompt: "Use $journal-footnote-endnote to convert and audit my manuscript notes."
+

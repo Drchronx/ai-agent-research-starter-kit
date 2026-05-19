@@ -1,0 +1,5 @@
+interface:
+  display_name: "ERP Analysis"
+  short_description: "Analyze ERP epochs and components"
+  default_prompt: "Use $erp-segmentation-analysis to plan ERP segmentation and component analysis."
+

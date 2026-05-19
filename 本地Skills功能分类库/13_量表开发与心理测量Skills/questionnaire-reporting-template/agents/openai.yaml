@@ -1,0 +1,5 @@
+interface:
+  display_name: "Questionnaire Reporting"
+  short_description: "Write measurement reporting"
+  default_prompt: "Use $questionnaire-reporting-template to write my Measures and measurement-results sections."
+

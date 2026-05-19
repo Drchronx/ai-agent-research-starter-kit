@@ -1,0 +1,5 @@
+interface:
+  display_name: "Submission Revisions"
+  short_description: "Track submissions and revisions"
+  default_prompt: "Use $submission-revision-tracker to create a submission and reviewer-response tracker."
+

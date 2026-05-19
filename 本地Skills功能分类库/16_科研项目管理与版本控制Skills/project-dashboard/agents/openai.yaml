@@ -1,0 +1,5 @@
+interface:
+  display_name: "Project Dashboard"
+  short_description: "Maintain research project status"
+  default_prompt: "Use $project-dashboard to summarize and update my research project status."
+

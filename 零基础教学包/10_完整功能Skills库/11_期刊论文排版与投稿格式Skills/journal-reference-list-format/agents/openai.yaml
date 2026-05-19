@@ -1,0 +1,5 @@
+interface:
+  display_name: "Reference List"
+  short_description: "Format and audit journal references"
+  default_prompt: "Use $journal-reference-list-format to format my reference list for the target journal."
+

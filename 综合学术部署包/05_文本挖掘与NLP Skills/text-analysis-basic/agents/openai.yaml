@@ -1,0 +1,4 @@
+interface:
+  display_name: "文本分析基础"
+  short_description: "PDF提取、分词、词频、词云、向量化与相似度"
+  default_prompt: "使用文本分析基础 skill 处理文本提取、分词、统计、向量化或相似度任务。"

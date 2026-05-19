@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scenario Experiment Analysis"
+  short_description: "Analyze scenario experiment datasets"
+  default_prompt: "Analyze this scenario experiment dataset and report the results rigorously."

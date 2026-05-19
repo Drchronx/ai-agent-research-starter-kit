@@ -1,0 +1,5 @@
+interface:
+  display_name: "Abstract Keywords"
+  short_description: "Audit abstract length and keyword style"
+  default_prompt: "Use $journal-abstract-keywords to audit my abstract and keywords for the target journal."
+

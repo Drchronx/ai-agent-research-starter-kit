@@ -1,0 +1,5 @@
+interface:
+  display_name: "Manuscript Versions"
+  short_description: "Manage manuscript version history"
+  default_prompt: "Use $manuscript-version-manager to record manuscript version changes."
+

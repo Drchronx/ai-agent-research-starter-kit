@@ -1,0 +1,5 @@
+interface:
+  display_name: "EEG ML Classification"
+  short_description: "Build leakage-safe EEG classifiers"
+  default_prompt: "Use $eeg-ml-classification to design an EEG classification workflow."
+

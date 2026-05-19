@@ -1,0 +1,5 @@
+interface:
+  display_name: "SEM CFA Path"
+  short_description: "Plan SEM and latent models"
+  default_prompt: "Use $sem-cfa-path-latent to plan and report my SEM/CFA/path model."
+

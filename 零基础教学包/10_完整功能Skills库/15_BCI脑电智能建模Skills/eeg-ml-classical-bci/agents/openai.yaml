@@ -1,0 +1,5 @@
+interface:
+  display_name: "Classical BCI ML"
+  short_description: "Build classical EEG/BCI models"
+  default_prompt: "Use $eeg-ml-classical-bci to design classical machine-learning baselines for my BCI task."
+

@@ -1,0 +1,5 @@
+interface:
+  display_name: "BCI Benchmarks"
+  short_description: "Choose public BCI datasets"
+  default_prompt: "Use $bci-benchmark-datasets to find and compare public datasets for my BCI task."
+

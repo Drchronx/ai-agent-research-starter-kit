@@ -1,0 +1,4 @@
+interface:
+  display_name: "科研数据自动分析与学术绘图"
+  short_description: "自动完成科研数据分析、统计解读与可发表级学术图表输出"
+  default_prompt: "分析科研数据，输出统计摘要、学术图表和简要研究结论"

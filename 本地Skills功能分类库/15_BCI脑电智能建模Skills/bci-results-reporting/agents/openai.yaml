@@ -1,0 +1,5 @@
+interface:
+  display_name: "BCI Results Reporting"
+  short_description: "Write BCI model results"
+  default_prompt: "Use $bci-results-reporting to write publication-ready BCI model results."
+

@@ -1,0 +1,5 @@
+interface:
+  display_name: "EFA CFA Models"
+  short_description: "Plan and report factor models"
+  default_prompt: "Use $efa-cfa-measurement-model to plan EFA/CFA analysis for my scale data."
+

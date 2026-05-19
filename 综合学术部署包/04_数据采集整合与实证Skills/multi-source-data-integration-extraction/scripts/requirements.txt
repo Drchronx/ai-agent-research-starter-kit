@@ -1,0 +1,7 @@
+pandas
+openpyxl
+lxml
+beautifulsoup4
+pdfplumber
+paddlepaddle
+paddleocr

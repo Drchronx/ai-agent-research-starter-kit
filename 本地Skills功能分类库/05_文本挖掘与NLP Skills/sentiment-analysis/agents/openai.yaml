@@ -1,0 +1,4 @@
+interface:
+  display_name: "情感分析"
+  short_description: "词典、机器学习和大模型情感分析流程"
+  default_prompt: "使用情感分析 skill 对文本进行词典法、机器学习法或大模型情感判别。"

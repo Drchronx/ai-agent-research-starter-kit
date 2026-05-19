@@ -1,0 +1,5 @@
+interface:
+  display_name: "Research Log"
+  short_description: "Record research decisions and outputs"
+  default_prompt: "Use $research-log to append a structured log entry for this research session."
+

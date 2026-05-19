@@ -1,0 +1,5 @@
+interface:
+  display_name: "EEG Preprocessing"
+  short_description: "Design reproducible EEG preprocessing"
+  default_prompt: "Use $eeg-preprocessing-pipeline to create a reproducible EEG preprocessing plan."
+

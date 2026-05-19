@@ -1,0 +1,5 @@
+interface:
+  display_name: "Statistics Units Style"
+  short_description: "Standardize statistics and units"
+  default_prompt: "Use $journal-statistics-units-style to audit statistical notation and units in my Results section."
+

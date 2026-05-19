@@ -1,0 +1,5 @@
+interface:
+  display_name: "Data Lineage"
+  short_description: "Track raw-to-output data flow"
+  default_prompt: "Use $data-lineage-tracker to document my data cleaning and analysis lineage."
+

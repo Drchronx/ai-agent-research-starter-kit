@@ -1,0 +1,5 @@
+interface:
+  display_name: "Project Initializer"
+  short_description: "Create research project workspaces"
+  default_prompt: "Use $project-initializer to create a structured academic research project workspace."
+

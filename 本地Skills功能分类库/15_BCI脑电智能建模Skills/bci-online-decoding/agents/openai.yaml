@@ -1,0 +1,5 @@
+interface:
+  display_name: "Online BCI Decoding"
+  short_description: "Design online BCI decoding"
+  default_prompt: "Use $bci-online-decoding to design a pseudo-online or online BCI decoder."
+

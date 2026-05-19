@@ -1,0 +1,5 @@
+interface:
+  display_name: "Cross-Subject BCI"
+  short_description: "Plan transfer and domain adaptation"
+  default_prompt: "Use $eeg-cross-subject-transfer-bci to design cross-subject EEG transfer learning."
+

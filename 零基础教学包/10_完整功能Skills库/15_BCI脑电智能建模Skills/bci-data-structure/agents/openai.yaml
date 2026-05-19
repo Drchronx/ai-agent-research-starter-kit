@@ -1,0 +1,5 @@
+interface:
+  display_name: "BCI Data Structure"
+  short_description: "Organize EEG/BCI modeling data"
+  default_prompt: "Use $bci-data-structure to design my EEG/BCI project data structure and split plan."
+

@@ -1,0 +1,919 @@
+﻿[
+    {
+        "Category":  "01_核心文档处理Skills",
+        "Name":  "docx",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\01_核心文档处理Skills\\docx",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "01_核心文档处理Skills",
+        "Name":  "markitdown",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\01_核心文档处理Skills\\markitdown",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "01_核心文档处理Skills",
+        "Name":  "pdf",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\01_核心文档处理Skills\\pdf",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "01_核心文档处理Skills",
+        "Name":  "pptx",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\01_核心文档处理Skills\\pptx",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "01_核心文档处理Skills",
+        "Name":  "xlsx",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\01_核心文档处理Skills\\xlsx",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "02_文献检索综述引用Skills",
+        "Name":  "academic-research-hub",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\02_文献检索综述引用Skills\\academic-research-hub",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "02_文献检索综述引用Skills",
+        "Name":  "academic-research-openalex",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\02_文献检索综述引用Skills\\academic-research-openalex",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "02_文献检索综述引用Skills",
+        "Name":  "ai4scholar-author-intelligence",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\02_文献检索综述引用Skills\\ai4scholar-author-intelligence",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "02_文献检索综述引用Skills",
+        "Name":  "ai4scholar-auto-citation-bibtex",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\02_文献检索综述引用Skills\\ai4scholar-auto-citation-bibtex",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "02_文献检索综述引用Skills",
+        "Name":  "ai4scholar-citation-network",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\02_文献检索综述引用Skills\\ai4scholar-citation-network",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "02_文献检索综述引用Skills",
+        "Name":  "ai4scholar-paper-detail-batch",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\02_文献检索综述引用Skills\\ai4scholar-paper-detail-batch",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "02_文献检索综述引用Skills",
+        "Name":  "ai4scholar-paper-recommendation",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\02_文献检索综述引用Skills\\ai4scholar-paper-recommendation",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "02_文献检索综述引用Skills",
+        "Name":  "ai4scholar-paper-search",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\02_文献检索综述引用Skills\\ai4scholar-paper-search",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "02_文献检索综述引用Skills",
+        "Name":  "ai4scholar-pdf-fulltext-reading",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\02_文献检索综述引用Skills\\ai4scholar-pdf-fulltext-reading",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "02_文献检索综述引用Skills",
+        "Name":  "ai4scholar-research",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\02_文献检索综述引用Skills\\ai4scholar-research",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "02_文献检索综述引用Skills",
+        "Name":  "aminer-mcp-research",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\02_文献检索综述引用Skills\\aminer-mcp-research",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "02_文献检索综述引用Skills",
+        "Name":  "arxiv-watcher",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\02_文献检索综述引用Skills\\arxiv-watcher",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "02_文献检索综述引用Skills",
+        "Name":  "citation-management",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\02_文献检索综述引用Skills\\citation-management",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "02_文献检索综述引用Skills",
+        "Name":  "literature-review",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\02_文献检索综述引用Skills\\literature-review",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "02_文献检索综述引用Skills",
+        "Name":  "literature-reviewer-skill",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\02_文献检索综述引用Skills\\literature-reviewer-skill",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "02_文献检索综述引用Skills",
+        "Name":  "paper-innovation-extractor",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\02_文献检索综述引用Skills\\paper-innovation-extractor",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "02_文献检索综述引用Skills",
+        "Name":  "pdf-paper-summary",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\02_文献检索综述引用Skills\\pdf-paper-summary",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "02_文献检索综述引用Skills",
+        "Name":  "research-lookup",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\02_文献检索综述引用Skills\\research-lookup",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "02_文献检索综述引用Skills",
+        "Name":  "research-superpower",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\02_文献检索综述引用Skills\\research-superpower",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "02_文献检索综述引用Skills",
+        "Name":  "ssci-literature-review",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\02_文献检索综述引用Skills\\ssci-literature-review",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "03_CNKI选题与中文文献Skills",
+        "Name":  "cnki-crawler-literature",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\03_CNKI选题与中文文献Skills\\cnki-crawler-literature",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "03_CNKI选题与中文文献Skills",
+        "Name":  "cnki-crawler-topic",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\03_CNKI选题与中文文献Skills\\cnki-crawler-topic",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "03_CNKI选题与中文文献Skills",
+        "Name":  "cnki-exp-search-automation",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\03_CNKI选题与中文文献Skills\\cnki-exp-search-automation",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "03_CNKI选题与中文文献Skills",
+        "Name":  "cnki-rank",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\03_CNKI选题与中文文献Skills\\cnki-rank",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "03_CNKI选题与中文文献Skills",
+        "Name":  "cnki-research-assistant",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\03_CNKI选题与中文文献Skills\\cnki-research-assistant",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "03_CNKI选题与中文文献Skills",
+        "Name":  "cnki-trend",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\03_CNKI选题与中文文献Skills\\cnki-trend",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "04_数据采集整合与实证Skills",
+        "Name":  "data-visualization-analysis",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\04_数据采集整合与实证Skills\\data-visualization-analysis",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "04_数据采集整合与实证Skills",
+        "Name":  "data-viz-analyzer",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\04_数据采集整合与实证Skills\\data-viz-analyzer",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "04_数据采集整合与实证Skills",
+        "Name":  "decision-tree-modeling",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\04_数据采集整合与实证Skills\\decision-tree-modeling",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "04_数据采集整合与实证Skills",
+        "Name":  "empirical-analysis-skill-python",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\04_数据采集整合与实证Skills\\empirical-analysis-skill-python",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "04_数据采集整合与实证Skills",
+        "Name":  "multi-source-data-integration-extraction",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\04_数据采集整合与实证Skills\\multi-source-data-integration-extraction",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "04_数据采集整合与实证Skills",
+        "Name":  "research-data-auto-analysis-plotting",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\04_数据采集整合与实证Skills\\research-data-auto-analysis-plotting",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "04_数据采集整合与实证Skills",
+        "Name":  "tushare-finance",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\04_数据采集整合与实证Skills\\tushare-finance",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "05_文本挖掘与NLP Skills",
+        "Name":  "big-data-labeling-variable-construction",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\05_文本挖掘与NLP Skills\\big-data-labeling-variable-construction",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "05_文本挖掘与NLP Skills",
+        "Name":  "deep-learning-nlp",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\05_文本挖掘与NLP Skills\\deep-learning-nlp",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "05_文本挖掘与NLP Skills",
+        "Name":  "sentiment-analysis",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\05_文本挖掘与NLP Skills\\sentiment-analysis",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "05_文本挖掘与NLP Skills",
+        "Name":  "text-analysis-basic",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\05_文本挖掘与NLP Skills\\text-analysis-basic",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "05_文本挖掘与NLP Skills",
+        "Name":  "topic-modeling",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\05_文本挖掘与NLP Skills\\topic-modeling",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "06_论文写作审稿投稿Skills",
+        "Name":  "academic-paper-composer",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\06_论文写作审稿投稿Skills\\academic-paper-composer",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "06_论文写作审稿投稿Skills",
+        "Name":  "academic-paper-strategist",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\06_论文写作审稿投稿Skills\\academic-paper-strategist",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "06_论文写作审稿投稿Skills",
+        "Name":  "doc-coauthoring",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\06_论文写作审稿投稿Skills\\doc-coauthoring",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "06_论文写作审稿投稿Skills",
+        "Name":  "empirical-paper-writer",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\06_论文写作审稿投稿Skills\\empirical-paper-writer",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "06_论文写作审稿投稿Skills",
+        "Name":  "hypothesis-generation",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\06_论文写作审稿投稿Skills\\hypothesis-generation",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "06_论文写作审稿投稿Skills",
+        "Name":  "paper-writing-assistant-typesetting",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\06_论文写作审稿投稿Skills\\paper-writing-assistant-typesetting",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "06_论文写作审稿投稿Skills",
+        "Name":  "peer-review",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\06_论文写作审稿投稿Skills\\peer-review",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "06_论文写作审稿投稿Skills",
+        "Name":  "research-grants",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\06_论文写作审稿投稿Skills\\research-grants",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "06_论文写作审稿投稿Skills",
+        "Name":  "research-proposal",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\06_论文写作审稿投稿Skills\\research-proposal",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "06_论文写作审稿投稿Skills",
+        "Name":  "scholar-evaluation",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\06_论文写作审稿投稿Skills\\scholar-evaluation",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "06_论文写作审稿投稿Skills",
+        "Name":  "scientific-critical-thinking",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\06_论文写作审稿投稿Skills\\scientific-critical-thinking",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "06_论文写作审稿投稿Skills",
+        "Name":  "scientific-writing",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\06_论文写作审稿投稿Skills\\scientific-writing",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "06_论文写作审稿投稿Skills",
+        "Name":  "venue-templates",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\06_论文写作审稿投稿Skills\\venue-templates",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "07_自动化MCP浏览器与Agent Skills",
+        "Name":  "agent-browser",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\07_自动化MCP浏览器与Agent Skills\\agent-browser",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "07_自动化MCP浏览器与Agent Skills",
+        "Name":  "ai4scholar-mcp-openclaw-setup",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\07_自动化MCP浏览器与Agent Skills\\ai4scholar-mcp-openclaw-setup",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "07_自动化MCP浏览器与Agent Skills",
+        "Name":  "ai4scholar-scholar-mode-projects",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\07_自动化MCP浏览器与Agent Skills\\ai4scholar-scholar-mode-projects",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "07_自动化MCP浏览器与Agent Skills",
+        "Name":  "claude-api",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\07_自动化MCP浏览器与Agent Skills\\claude-api",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "07_自动化MCP浏览器与Agent Skills",
+        "Name":  "find-skills",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\07_自动化MCP浏览器与Agent Skills\\find-skills",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "07_自动化MCP浏览器与Agent Skills",
+        "Name":  "mcp-builder",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\07_自动化MCP浏览器与Agent Skills\\mcp-builder",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "07_自动化MCP浏览器与Agent Skills",
+        "Name":  "parallel-web",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\07_自动化MCP浏览器与Agent Skills\\parallel-web",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "07_自动化MCP浏览器与Agent Skills",
+        "Name":  "self-improving-agent",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\07_自动化MCP浏览器与Agent Skills\\self-improving-agent",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "07_自动化MCP浏览器与Agent Skills",
+        "Name":  "skill-creator",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\07_自动化MCP浏览器与Agent Skills\\skill-creator",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "07_自动化MCP浏览器与Agent Skills",
+        "Name":  "skillhub-preference",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\07_自动化MCP浏览器与Agent Skills\\skillhub-preference",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "07_自动化MCP浏览器与Agent Skills",
+        "Name":  "tavily-search",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\07_自动化MCP浏览器与Agent Skills\\tavily-search",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "07_自动化MCP浏览器与Agent Skills",
+        "Name":  "webapp-testing",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\07_自动化MCP浏览器与Agent Skills\\webapp-testing",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "07_自动化MCP浏览器与Agent Skills",
+        "Name":  "web-browsing",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\07_自动化MCP浏览器与Agent Skills\\web-browsing",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "08_图表PPT海报与可视化Skills",
+        "Name":  "ai4scholar-sci-draw",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\08_图表PPT海报与可视化Skills\\ai4scholar-sci-draw",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "08_图表PPT海报与可视化Skills",
+        "Name":  "generate-image",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\08_图表PPT海报与可视化Skills\\generate-image",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "08_图表PPT海报与可视化Skills",
+        "Name":  "infographics",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\08_图表PPT海报与可视化Skills\\infographics",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "08_图表PPT海报与可视化Skills",
+        "Name":  "latex-posters",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\08_图表PPT海报与可视化Skills\\latex-posters",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "08_图表PPT海报与可视化Skills",
+        "Name":  "paper-2-web",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\08_图表PPT海报与可视化Skills\\paper-2-web",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "08_图表PPT海报与可视化Skills",
+        "Name":  "paper-slide-deck",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\08_图表PPT海报与可视化Skills\\paper-slide-deck",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "08_图表PPT海报与可视化Skills",
+        "Name":  "pptx-posters",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\08_图表PPT海报与可视化Skills\\pptx-posters",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "08_图表PPT海报与可视化Skills",
+        "Name":  "scientific-schematics",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\08_图表PPT海报与可视化Skills\\scientific-schematics",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "08_图表PPT海报与可视化Skills",
+        "Name":  "scientific-slides",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\08_图表PPT海报与可视化Skills\\scientific-slides",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "10_情景实验与行为研究Skills",
+        "Name":  "scenario-experiment-analysis",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\10_情景实验与行为研究Skills\\scenario-experiment-analysis",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "10_情景实验与行为研究Skills",
+        "Name":  "scenario-experiment-benchmark-mining",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\10_情景实验与行为研究Skills\\scenario-experiment-benchmark-mining",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "10_情景实验与行为研究Skills",
+        "Name":  "scenario-experiment-design",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\10_情景实验与行为研究Skills\\scenario-experiment-design",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "10_情景实验与行为研究Skills",
+        "Name":  "scenario-experiment-reporting",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\10_情景实验与行为研究Skills\\scenario-experiment-reporting",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "11_期刊论文排版与投稿格式Skills",
+        "Name":  "journal-abstract-keywords",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\11_期刊论文排版与投稿格式Skills\\journal-abstract-keywords",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "11_期刊论文排版与投稿格式Skills",
+        "Name":  "journal-blind-review-anonymizer",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\11_期刊论文排版与投稿格式Skills\\journal-blind-review-anonymizer",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "11_期刊论文排版与投稿格式Skills",
+        "Name":  "journal-footnote-endnote",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\11_期刊论文排版与投稿格式Skills\\journal-footnote-endnote",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "11_期刊论文排版与投稿格式Skills",
+        "Name":  "journal-heading-hierarchy",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\11_期刊论文排版与投稿格式Skills\\journal-heading-hierarchy",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "11_期刊论文排版与投稿格式Skills",
+        "Name":  "journal-intext-citation-style",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\11_期刊论文排版与投稿格式Skills\\journal-intext-citation-style",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "11_期刊论文排版与投稿格式Skills",
+        "Name":  "journal-layout-spacing",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\11_期刊论文排版与投稿格式Skills\\journal-layout-spacing",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "11_期刊论文排版与投稿格式Skills",
+        "Name":  "journal-reference-list-format",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\11_期刊论文排版与投稿格式Skills\\journal-reference-list-format",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "11_期刊论文排版与投稿格式Skills",
+        "Name":  "journal-statistics-units-style",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\11_期刊论文排版与投稿格式Skills\\journal-statistics-units-style",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "11_期刊论文排版与投稿格式Skills",
+        "Name":  "journal-table-figure-caption",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\11_期刊论文排版与投稿格式Skills\\journal-table-figure-caption",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "11_期刊论文排版与投稿格式Skills",
+        "Name":  "journal-title-page-metadata",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\11_期刊论文排版与投稿格式Skills\\journal-title-page-metadata",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "12_EEG_ERP神经科学实验Skills",
+        "Name":  "eeg-experiment-planning",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\12_EEG_ERP神经科学实验Skills\\eeg-experiment-planning",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "12_EEG_ERP神经科学实验Skills",
+        "Name":  "eeg-frequency-connectivity",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\12_EEG_ERP神经科学实验Skills\\eeg-frequency-connectivity",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "12_EEG_ERP神经科学实验Skills",
+        "Name":  "eeg-ml-classification",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\12_EEG_ERP神经科学实验Skills\\eeg-ml-classification",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "12_EEG_ERP神经科学实验Skills",
+        "Name":  "eeg-preprocessing-pipeline",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\12_EEG_ERP神经科学实验Skills\\eeg-preprocessing-pipeline",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "12_EEG_ERP神经科学实验Skills",
+        "Name":  "eeg-results-writing-figures",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\12_EEG_ERP神经科学实验Skills\\eeg-results-writing-figures",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "12_EEG_ERP神经科学实验Skills",
+        "Name":  "erp-segmentation-analysis",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\12_EEG_ERP神经科学实验Skills\\erp-segmentation-analysis",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "13_量表开发与心理测量Skills",
+        "Name":  "common-method-bias-invariance",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\13_量表开发与心理测量Skills\\common-method-bias-invariance",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "13_量表开发与心理测量Skills",
+        "Name":  "efa-cfa-measurement-model",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\13_量表开发与心理测量Skills\\efa-cfa-measurement-model",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "13_量表开发与心理测量Skills",
+        "Name":  "questionnaire-reporting-template",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\13_量表开发与心理测量Skills\\questionnaire-reporting-template",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "13_量表开发与心理测量Skills",
+        "Name":  "scale-reliability-validity",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\13_量表开发与心理测量Skills\\scale-reliability-validity",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "13_量表开发与心理测量Skills",
+        "Name":  "scale-selection-adaptation",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\13_量表开发与心理测量Skills\\scale-selection-adaptation",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "14_高级统计机制与因果推断Skills",
+        "Name":  "causal-inference-design-audit",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\14_高级统计机制与因果推断Skills\\causal-inference-design-audit",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "14_高级统计机制与因果推断Skills",
+        "Name":  "did-psm-iv-rdd-dml-event-study",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\14_高级统计机制与因果推断Skills\\did-psm-iv-rdd-dml-event-study",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "14_高级统计机制与因果推断Skills",
+        "Name":  "multilevel-longitudinal-modeling",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\14_高级统计机制与因果推断Skills\\multilevel-longitudinal-modeling",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "14_高级统计机制与因果推断Skills",
+        "Name":  "process-mediation-moderation",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\14_高级统计机制与因果推断Skills\\process-mediation-moderation",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "14_高级统计机制与因果推断Skills",
+        "Name":  "sem-cfa-path-latent",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\14_高级统计机制与因果推断Skills\\sem-cfa-path-latent",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "14_高级统计机制与因果推断Skills",
+        "Name":  "statistical-results-tables",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\14_高级统计机制与因果推断Skills\\statistical-results-tables",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "15_BCI脑电智能建模Skills",
+        "Name":  "bci-benchmark-datasets",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\15_BCI脑电智能建模Skills\\bci-benchmark-datasets",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "15_BCI脑电智能建模Skills",
+        "Name":  "bci-data-structure",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\15_BCI脑电智能建模Skills\\bci-data-structure",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "15_BCI脑电智能建模Skills",
+        "Name":  "bci-online-decoding",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\15_BCI脑电智能建模Skills\\bci-online-decoding",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "15_BCI脑电智能建模Skills",
+        "Name":  "bci-results-reporting",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\15_BCI脑电智能建模Skills\\bci-results-reporting",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "15_BCI脑电智能建模Skills",
+        "Name":  "eeg-cross-subject-transfer-bci",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\15_BCI脑电智能建模Skills\\eeg-cross-subject-transfer-bci",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "15_BCI脑电智能建模Skills",
+        "Name":  "eeg-deep-learning-bci",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\15_BCI脑电智能建模Skills\\eeg-deep-learning-bci",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "15_BCI脑电智能建模Skills",
+        "Name":  "eeg-feature-engineering-bci",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\15_BCI脑电智能建模Skills\\eeg-feature-engineering-bci",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "15_BCI脑电智能建模Skills",
+        "Name":  "eeg-ml-classical-bci",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\15_BCI脑电智能建模Skills\\eeg-ml-classical-bci",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "15_BCI脑电智能建模Skills",
+        "Name":  "eeg-model-evaluation-leakage",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\15_BCI脑电智能建模Skills\\eeg-model-evaluation-leakage",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "15_BCI脑电智能建模Skills",
+        "Name":  "eeg-model-interpretability-bci",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\15_BCI脑电智能建模Skills\\eeg-model-interpretability-bci",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "16_科研项目管理与版本控制Skills",
+        "Name":  "data-lineage-tracker",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\16_科研项目管理与版本控制Skills\\data-lineage-tracker",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "16_科研项目管理与版本控制Skills",
+        "Name":  "manuscript-version-manager",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\16_科研项目管理与版本控制Skills\\manuscript-version-manager",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "16_科研项目管理与版本控制Skills",
+        "Name":  "project-dashboard",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\16_科研项目管理与版本控制Skills\\project-dashboard",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "16_科研项目管理与版本控制Skills",
+        "Name":  "project-initializer",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\16_科研项目管理与版本控制Skills\\project-initializer",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "16_科研项目管理与版本控制Skills",
+        "Name":  "research-log",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\16_科研项目管理与版本控制Skills\\research-log",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "16_科研项目管理与版本控制Skills",
+        "Name":  "submission-revision-tracker",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\16_科研项目管理与版本控制Skills\\submission-revision-tracker",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "16_科研项目管理与版本控制Skills",
+        "Name":  "weekly-research-planner",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\16_科研项目管理与版本控制Skills\\weekly-research-planner",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "17_Zotero_Obsidian长期知识库Skills",
+        "Name":  "obsidian-paper-card",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\17_Zotero_Obsidian长期知识库Skills\\obsidian-paper-card",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "17_Zotero_Obsidian长期知识库Skills",
+        "Name":  "paper-reusable-insight-bank",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\17_Zotero_Obsidian长期知识库Skills\\paper-reusable-insight-bank",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "17_Zotero_Obsidian长期知识库Skills",
+        "Name":  "research-question-knowledge-graph",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\17_Zotero_Obsidian长期知识库Skills\\research-question-knowledge-graph",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "17_Zotero_Obsidian长期知识库Skills",
+        "Name":  "theory-variable-method-matrix",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\17_Zotero_Obsidian长期知识库Skills\\theory-variable-method-matrix",
+        "HasSkillMd":  true
+    },
+    {
+        "Category":  "17_Zotero_Obsidian长期知识库Skills",
+        "Name":  "zotero-library-sync",
+        "Source":  "本地分类库",
+        "Destination":  "本地Skills功能分类库\\17_Zotero_Obsidian长期知识库Skills\\zotero-library-sync",
+        "HasSkillMd":  true
+    }
+]

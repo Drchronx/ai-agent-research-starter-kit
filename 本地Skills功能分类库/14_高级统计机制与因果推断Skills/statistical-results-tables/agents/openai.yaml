@@ -1,0 +1,5 @@
+interface:
+  display_name: "Statistical Tables"
+  short_description: "Create journal-style result tables"
+  default_prompt: "Use $statistical-results-tables to format my model outputs into publication-ready tables."
+

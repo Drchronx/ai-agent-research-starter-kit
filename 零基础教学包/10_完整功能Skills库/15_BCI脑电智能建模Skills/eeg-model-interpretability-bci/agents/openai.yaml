@@ -1,0 +1,5 @@
+interface:
+  display_name: "BCI Interpretability"
+  short_description: "Interpret EEG/BCI models"
+  default_prompt: "Use $eeg-model-interpretability-bci to interpret my EEG/BCI model safely."
+

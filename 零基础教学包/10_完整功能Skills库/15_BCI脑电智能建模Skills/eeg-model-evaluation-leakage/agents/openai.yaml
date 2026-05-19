@@ -1,0 +1,5 @@
+interface:
+  display_name: "BCI Leakage Audit"
+  short_description: "Audit EEG model evaluation leakage"
+  default_prompt: "Use $eeg-model-evaluation-leakage to audit my BCI evaluation for data leakage."
+

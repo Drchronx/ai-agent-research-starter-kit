@@ -1,0 +1,12 @@
+pandas
+openpyxl
+scikit-learn
+jieba
+joblib
+gensim
+pyldavis
+matplotlib
+opencc-python-reimplemented
+transformers
+torch
+openai

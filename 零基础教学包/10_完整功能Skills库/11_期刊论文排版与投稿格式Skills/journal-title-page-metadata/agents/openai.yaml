@@ -1,0 +1,5 @@
+interface:
+  display_name: "Title Page Metadata"
+  short_description: "Format journal title page metadata"
+  default_prompt: "Use $journal-title-page-metadata to format my manuscript title page for the target journal."
+

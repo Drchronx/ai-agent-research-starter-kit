@@ -1,0 +1,6 @@
+requests
+tqdm
+lxml
+loguru
+psycopg2-binary
+python-dotenv

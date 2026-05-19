@@ -1,0 +1,5 @@
+interface:
+  display_name: "EEG BCI Features"
+  short_description: "Engineer EEG features for BCI"
+  default_prompt: "Use $eeg-feature-engineering-bci to plan leakage-safe EEG feature extraction."
+

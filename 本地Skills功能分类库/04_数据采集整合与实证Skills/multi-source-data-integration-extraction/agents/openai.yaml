@@ -1,0 +1,4 @@
+interface:
+  display_name: "多源数据整合与信息提取"
+  short_description: "自动合并零散表格并提取年报政策文件中的结构化表格信息"
+  default_prompt: "合并 Excel/CSV 数据并提取年报、政策文件里的表格到结构化输出"

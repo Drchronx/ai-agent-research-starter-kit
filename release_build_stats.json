@@ -1,0 +1,72 @@
+{
+  "created_at": "2026-05-19T14:24:48",
+  "copied_files": 3253,
+  "sanitized_text_files": 62,
+  "sanitized_office_files": 21,
+  "excluded_files": [
+    {
+      "file": "零基础教学包\\10_完整功能Skills库\\03_CNKI选题与中文文献Skills\\cnki-rank\\config\\config.json",
+      "reason": "local config.json excluded"
+    },
+    {
+      "file": "零基础教学包\\10_完整功能Skills库\\03_CNKI选题与中文文献Skills\\cnki-research-assistant\\config\\config.json",
+      "reason": "local config.json excluded"
+    },
+    {
+      "file": "零基础教学包\\10_完整功能Skills库\\03_CNKI选题与中文文献Skills\\cnki-research-assistant\\data\\STSONG.TTF",
+      "reason": "excluded extension .ttf"
+    },
+    {
+      "file": "综合学术部署包\\03_CNKI选题与中文文献Skills\\cnki-rank\\config\\config.json",
+      "reason": "local config.json excluded"
+    },
+    {
+      "file": "综合学术部署包\\03_CNKI选题与中文文献Skills\\cnki-research-assistant\\config\\config.json",
+      "reason": "local config.json excluded"
+    },
+    {
+      "file": "综合学术部署包\\03_CNKI选题与中文文献Skills\\cnki-research-assistant\\data\\STSONG.TTF",
+      "reason": "excluded extension .ttf"
+    },
+    {
+      "file": "本地Skills功能分类库\\03_CNKI选题与中文文献Skills\\cnki-rank\\config\\config.json",
+      "reason": "local config.json excluded"
+    },
+    {
+      "file": "本地Skills功能分类库\\03_CNKI选题与中文文献Skills\\cnki-research-assistant\\config\\config.json",
+      "reason": "local config.json excluded"
+    },
+    {
+      "file": "本地Skills功能分类库\\03_CNKI选题与中文文献Skills\\cnki-research-assistant\\data\\STSONG.TTF",
+      "reason": "excluded extension .ttf"
+    }
+  ],
+  "excluded_dirs": [
+    "零基础教学包\\10_完整功能Skills库\\04_数据采集整合与实证Skills\\data-visualization-analysis\\scripts\\__pycache__",
+    "零基础教学包\\10_完整功能Skills库\\04_数据采集整合与实证Skills\\empirical-analysis-skill-python\\scripts\\__pycache__",
+    "零基础教学包\\10_完整功能Skills库\\05_文本挖掘与NLP Skills\\topic-modeling\\scripts\\__pycache__",
+    "综合学术部署包\\04_数据采集整合与实证Skills\\data-visualization-analysis\\scripts\\__pycache__",
+    "综合学术部署包\\04_数据采集整合与实证Skills\\empirical-analysis-skill-python\\scripts\\__pycache__",
+    "综合学术部署包\\05_文本挖掘与NLP Skills\\topic-modeling\\scripts\\__pycache__",
+    "本地Skills功能分类库\\04_数据采集整合与实证Skills\\data-visualization-analysis\\scripts\\__pycache__",
+    "本地Skills功能分类库\\04_数据采集整合与实证Skills\\empirical-analysis-skill-python\\scripts\\__pycache__",
+    "本地Skills功能分类库\\05_文本挖掘与NLP Skills\\topic-modeling\\scripts\\__pycache__"
+  ],
+  "config_json_excluded": [
+    "零基础教学包\\10_完整功能Skills库\\03_CNKI选题与中文文献Skills\\cnki-rank\\config\\config.json",
+    "零基础教学包\\10_完整功能Skills库\\03_CNKI选题与中文文献Skills\\cnki-research-assistant\\config\\config.json",
+    "综合学术部署包\\03_CNKI选题与中文文献Skills\\cnki-rank\\config\\config.json",
+    "综合学术部署包\\03_CNKI选题与中文文献Skills\\cnki-research-assistant\\config\\config.json",
+    "本地Skills功能分类库\\03_CNKI选题与中文文献Skills\\cnki-rank\\config\\config.json",
+    "本地Skills功能分类库\\03_CNKI选题与中文文献Skills\\cnki-research-assistant\\config\\config.json"
+  ],
+  "config_examples_created": [
+    "GitHub发布清洁版\\零基础教学包\\10_完整功能Skills库\\03_CNKI选题与中文文献Skills\\cnki-rank\\config\\config.example.json",
+    "GitHub发布清洁版\\零基础教学包\\10_完整功能Skills库\\03_CNKI选题与中文文献Skills\\cnki-research-assistant\\config\\config.example.json",
+    "GitHub发布清洁版\\综合学术部署包\\03_CNKI选题与中文文献Skills\\cnki-rank\\config\\config.example.json",
+    "GitHub发布清洁版\\综合学术部署包\\03_CNKI选题与中文文献Skills\\cnki-research-assistant\\config\\config.example.json",
+    "GitHub发布清洁版\\本地Skills功能分类库\\03_CNKI选题与中文文献Skills\\cnki-rank\\config\\config.example.json",
+    "GitHub发布清洁版\\本地Skills功能分类库\\03_CNKI选题与中文文献Skills\\cnki-research-assistant\\config\\config.example.json"
+  ],
+  "errors": []
+}

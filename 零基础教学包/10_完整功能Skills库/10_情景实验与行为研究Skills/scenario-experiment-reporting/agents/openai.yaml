@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scenario Experiment Reporting"
+  short_description: "Report behavioral experiments for journals"
+  default_prompt: "Write a top-journal style results report for this scenario experiment."

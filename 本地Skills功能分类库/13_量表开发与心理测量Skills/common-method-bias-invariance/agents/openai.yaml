@@ -1,0 +1,5 @@
+interface:
+  display_name: "CMB Invariance"
+  short_description: "Check method bias and invariance"
+  default_prompt: "Use $common-method-bias-invariance to assess common method bias and measurement invariance."
+

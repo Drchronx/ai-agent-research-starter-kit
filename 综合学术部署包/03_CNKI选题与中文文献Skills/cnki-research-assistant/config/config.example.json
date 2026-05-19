@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0",
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "dbname": "cnki_db",
+    "user": "<请自行填写>",
+    "password": "<请自行填写>"
+  },
+  "proxy": {},
+  "cssci_data": {
+    "path": "data/cssci_2025_2026.csv",
+    "last_updated": "2026-04-10"
+  },
+  "output": {
+    "report_dir": "reports",
+    "chart_dir": "reports/charts"
+  },
+  "external_skills": {
+    "cnki_trend": "../cnki-trend/scripts/cnki_keyword_trend_report.py",
+    "cnki_crawler": "../cnki-crawler/scripts/main.py",
+    "cnki_rank_db": "academic_hotspot"
+  }
+}

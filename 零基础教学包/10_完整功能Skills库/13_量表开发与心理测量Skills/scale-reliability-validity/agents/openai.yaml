@@ -1,0 +1,5 @@
+interface:
+  display_name: "Scale Reliability Validity"
+  short_description: "Audit reliability and validity"
+  default_prompt: "Use $scale-reliability-validity to analyze reliability and validity for my questionnaire data."
+

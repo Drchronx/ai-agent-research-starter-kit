@@ -1,0 +1,5 @@
+interface:
+  display_name: "EEG Frequency Connectivity"
+  short_description: "Analyze EEG power and connectivity"
+  default_prompt: "Use $eeg-frequency-connectivity to plan EEG time-frequency or connectivity analysis."
+

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Blind Review Anonymizer"
+  short_description: "Prepare double-blind manuscript files"
+  default_prompt: "Use $journal-blind-review-anonymizer to audit my manuscript for double-blind review."
+

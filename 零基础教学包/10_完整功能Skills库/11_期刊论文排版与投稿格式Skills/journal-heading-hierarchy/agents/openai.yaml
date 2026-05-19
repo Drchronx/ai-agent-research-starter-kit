@@ -1,0 +1,5 @@
+interface:
+  display_name: "Heading Hierarchy"
+  short_description: "Standardize manuscript heading levels"
+  default_prompt: "Use $journal-heading-hierarchy to map my manuscript headings to the target journal style."
+

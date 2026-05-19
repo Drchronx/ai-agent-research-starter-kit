@@ -1,0 +1,4 @@
+interface:
+  display_name: "论文写作辅助与自动排版系统"
+  short_description: "自动整合文献、生成论文结构、整理引用并输出规范论文草稿"
+  default_prompt: "根据文献与大纲生成论文结构、引用清单，并输出 LaTeX 与 Word 草稿"

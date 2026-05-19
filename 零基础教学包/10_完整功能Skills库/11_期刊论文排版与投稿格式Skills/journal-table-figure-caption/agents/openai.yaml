@@ -1,0 +1,5 @@
+interface:
+  display_name: "Table Figure Captions"
+  short_description: "Format table and figure captions"
+  default_prompt: "Use $journal-table-figure-caption to audit all table and figure captions in my manuscript."
+

@@ -1,0 +1,13 @@
+year,treatment_group,dose,response_score,survival_rate,inflammation_marker
+2021,control,0,63,0.71,5.6
+2021,control,0,59,0.69,5.9
+2021,low-dose,5,68,0.75,4.9
+2021,low-dose,5,70,0.76,4.7
+2021,high-dose,10,74,0.79,4.1
+2021,high-dose,10,76,0.81,4.0
+2022,control,0,61,0.70,5.7
+2022,control,0,60,0.68,6.0
+2022,low-dose,5,71,0.77,4.6
+2022,low-dose,5,72,0.78,4.5
+2022,high-dose,10,79,0.84,3.8
+2022,high-dose,10,81,0.85,3.7

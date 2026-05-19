@@ -1,0 +1,5 @@
+interface:
+  display_name: "Weekly Research Planner"
+  short_description: "Plan and review weekly research work"
+  default_prompt: "Use $weekly-research-planner to create this week's research plan from my project status."
+

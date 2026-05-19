@@ -1,0 +1,5 @@
+interface:
+  display_name: "BCI Deep Learning"
+  short_description: "Design EEG deep-learning models"
+  default_prompt: "Use $eeg-deep-learning-bci to plan a deep-learning workflow for EEG/BCI decoding."
+

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Multilevel Longitudinal"
+  short_description: "Model nested and repeated data"
+  default_prompt: "Use $multilevel-longitudinal-modeling to design a mixed-effects or longitudinal model."
+
