@@ -260,6 +260,7 @@
 - Codex、Claude Code、OpenClaw、Hermes 的区别与科研分工。
 - 每个 Agent 的部署教学与使用边界。
 - `https://hvoy.ai/model-select` 中转站/模型选择思路。
+- `https://folkbench.com/stations` Folkbench 中转站排行榜与检测（排序按站点规则，含合作档位和运营加权，部分数据为展示样本）；在线检测页 `https://folkbench.com/evaluations/api-quality`。
 - 国内模型与国外模型的选择标准。
 - `AGENTS.md`、`CLAUDE.md`、`SOUL.md`、`USER.md`、`MEMORY.md` 的写法。
 - Skills 的定义、下载/复制方法、根目录与工作区放置策略。
