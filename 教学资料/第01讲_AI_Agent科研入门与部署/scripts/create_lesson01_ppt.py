@@ -353,7 +353,7 @@ def build():
 
     slide = new_slide("模型与中转站选择")
     add_text(slide, "课堂参考入口：", 0.85, 1.48, 2.0, 0.35, size=16, color=COLORS["muted"])
-    add_code(slide, "https://hvoy.ai/model-select", 2.55, 1.35, 5.2, 0.62, size=15)
+    add_code(slide, "https://hvoy.ai/model-select  ·  https://folkbench.com/stations", 2.55, 1.35, 5.2, 0.62, size=13)
     rows = [
         ["任务", "更适合模型", "选择依据"],
         ["脚本/数据/文档生成", "强代码模型", "工具调用、代码可靠性、成本"],
@@ -602,7 +602,7 @@ def build():
         "MCP 官方文档：https://modelcontextprotocol.io/docs",
         "Ai4Scholar：https://ai4scholar.net；MCP：https://mcp.ai4scholar.net/sse",
         "AMiner 开放文档：https://www.aminer.cn/open/docs；MCP：https://mcp.aminer.cn/sse",
-        "模型选择参考：https://hvoy.ai/model-select",
+        "模型选择参考：https://hvoy.ai/model-select 、https://folkbench.com/stations",
     ], 0.85, 1.55, 11.8, 3.4, size=15)
     add_card(slide, "版本原则", "部署命令会随工具版本变化。课件中涉及外部工具的安装步骤，学生必须以官方当前文档或课程包当前版本再次确认。", 0.9, 5.35, 11.45, 1.0, fill=COLORS["pale_amber"], accent=COLORS["amber"], body_size=13)
 
